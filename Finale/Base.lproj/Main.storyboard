@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,19 +15,216 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWh-Er-IyT">
-                                <rect key="frame" x="101" y="220" width="212" height="126"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWh-Er-IyT">
+                                <rect key="frame" x="47" y="291" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Acrylic">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXs-bx-qXa">
+                                <rect key="frame" x="47" y="399" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Nylon">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9l-Ko-ADI">
+                                <rect key="frame" x="229" y="399" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Polyester">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2J-H3-Q3v">
+                                <rect key="frame" x="47" y="511" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Silk">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edT-dH-p7u">
+                                <rect key="frame" x="229" y="511" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Spandex">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nw2-VO-fhf">
+                                <rect key="frame" x="47" y="616" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Viscose">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u2-TC-Cca">
+                                <rect key="frame" x="229" y="616" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Wool">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLU-gF-Tju">
+                                <rect key="frame" x="229" y="291" width="138" height="60"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Cotton">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-MediumItalic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mc3-SC-jub">
+                                <rect key="frame" x="72" y="78" width="271" height="42"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="TEXTILE TECHIES">
+                                        <attributes>
+                                            <color key="NSColor" red="0.33424618853321952" green="0.19169438671844621" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="32" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-9Z-N8u">
+                                <rect key="frame" x="47" y="727" width="320" height="87"/>
+                                <color key="tintColor" red="0.33424618849999999" green="0.1916943867" blue="0.57919406890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="LEARN MORE - HIGG INDEX">
+                                            <attributes>
+                                                <color key="NSColor" red="0.60978299380000001" green="0.78055268529999999" blue="0.62809759379999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="21" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSD-x8-vtX">
+                                <rect key="frame" x="47" y="152" width="581" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Created by the Koding Koders: ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.61018360647726033" green="0.78068149090000005" blue="0.62910639792944234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="LWh-Er-IyT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="3B9-J1-rzD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LWh-Er-IyT" secondAttribute="bottom" constant="516" id="DCL-PQ-eS8"/>
-                            <constraint firstItem="LWh-Er-IyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="aMg-m9-kmc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LWh-Er-IyT" secondAttribute="trailing" constant="101" id="o3A-mZ-yVU"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="WLU-gF-Tju" secondAttribute="bottom" constant="488" id="0BT-QX-ou3"/>
+                            <constraint firstItem="K2J-H3-Q3v" firstAttribute="top" secondItem="lXs-bx-qXa" secondAttribute="bottom" constant="42.5" id="1Xu-VU-N1n"/>
+                            <constraint firstItem="Mc3-SC-jub" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="2bf-je-fCu"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="W9l-Ko-ADI" secondAttribute="bottom" constant="410" id="4ef-dp-m68"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W9l-Ko-ADI" secondAttribute="trailing" constant="47" id="61d-dJ-5Fu"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="nw2-VO-fhf" secondAttribute="bottom" constant="241" id="6FU-jY-ovW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LWh-Er-IyT" secondAttribute="trailing" constant="229" id="7Kw-Sa-pP0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WLU-gF-Tju" secondAttribute="trailing" constant="47" id="9jw-LU-t5Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nw2-VO-fhf" secondAttribute="trailing" constant="229" id="9zR-Ww-ulu"/>
+                            <constraint firstItem="2u2-TC-Cca" firstAttribute="top" secondItem="edT-dH-p7u" secondAttribute="bottom" constant="51.5" id="A2X-mh-Ysb"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="lXs-bx-qXa" secondAttribute="bottom" constant="410" id="AXW-2M-MnW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K2J-H3-Q3v" secondAttribute="trailing" constant="229" id="BXD-6j-VHv"/>
+                            <constraint firstItem="Mc3-SC-jub" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="FED-DZ-igu"/>
+                            <constraint firstItem="WLU-gF-Tju" firstAttribute="leading" secondItem="LWh-Er-IyT" secondAttribute="trailing" constant="44" id="HeO-Et-8Hl"/>
+                            <constraint firstItem="LWh-Er-IyT" firstAttribute="top" secondItem="Mc3-SC-jub" secondAttribute="bottom" constant="131" id="MBd-qb-dq9"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="LWh-Er-IyT" secondAttribute="bottom" constant="488" id="OVh-92-htC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lXs-bx-qXa" secondAttribute="trailing" constant="229" id="Ozx-qQ-OVF"/>
+                            <constraint firstItem="LWh-Er-IyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="PDe-q6-CPU"/>
+                            <constraint firstItem="2u2-TC-Cca" firstAttribute="leading" secondItem="nw2-VO-fhf" secondAttribute="trailing" constant="44" id="PSU-RV-beW"/>
+                            <constraint firstItem="LWh-Er-IyT" firstAttribute="top" secondItem="Mc3-SC-jub" secondAttribute="bottom" constant="131" id="PXa-wx-DNs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2u2-TC-Cca" secondAttribute="trailing" constant="47" id="Ukm-r5-def"/>
+                            <constraint firstItem="edT-dH-p7u" firstAttribute="leading" secondItem="K2J-H3-Q3v" secondAttribute="trailing" constant="44" id="ZhD-Ew-qd3"/>
+                            <constraint firstItem="lXs-bx-qXa" firstAttribute="top" secondItem="LWh-Er-IyT" secondAttribute="bottom" constant="40.5" id="ch5-B2-SYN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="edT-dH-p7u" secondAttribute="trailing" constant="47" id="g0F-N1-kNU"/>
+                            <constraint firstItem="K2J-H3-Q3v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="hd2-Uq-wTv"/>
+                            <constraint firstItem="nw2-VO-fhf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="jG8-At-evL"/>
+                            <constraint firstItem="WLU-gF-Tju" firstAttribute="top" secondItem="Mc3-SC-jub" secondAttribute="bottom" constant="131" id="jtD-lq-Ify"/>
+                            <constraint firstItem="W9l-Ko-ADI" firstAttribute="leading" secondItem="lXs-bx-qXa" secondAttribute="trailing" constant="44" id="ko1-1f-XZr"/>
+                            <constraint firstItem="W9l-Ko-ADI" firstAttribute="top" secondItem="WLU-gF-Tju" secondAttribute="bottom" constant="40.5" id="lTb-sq-L9x"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="edT-dH-p7u" secondAttribute="bottom" constant="330" id="lW0-I6-lYN"/>
+                            <constraint firstItem="edT-dH-p7u" firstAttribute="top" secondItem="W9l-Ko-ADI" secondAttribute="bottom" constant="42.5" id="qRh-r2-ZEJ"/>
+                            <constraint firstItem="nw2-VO-fhf" firstAttribute="top" secondItem="K2J-H3-Q3v" secondAttribute="bottom" constant="51.5" id="riN-Bf-s8Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mc3-SC-jub" secondAttribute="trailing" constant="71" id="tQO-uo-AvT"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="K2J-H3-Q3v" secondAttribute="bottom" constant="330" id="urU-ap-TQK"/>
+                            <constraint firstItem="Jnb-9Z-N8u" firstAttribute="top" secondItem="2u2-TC-Cca" secondAttribute="bottom" constant="241" id="vXb-bW-HIZ"/>
+                            <constraint firstItem="lXs-bx-qXa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="w0M-u2-GuP"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,9 +233,4 @@
             <point key="canvasLocation" x="89.855072463768124" y="68.973214285714278"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

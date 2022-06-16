@@ -11,12 +11,13 @@ import WebKit
 class VideoViewController: UIViewController {
 
    
-    @IBOutlet weak var myWebView: WKWebView!
+    @IBOutlet weak var videoViewer: WKWebView!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         let googleURL = URL(string: "https://www.youtube.com/watch?v=Bhi7S06pwv4")
-        myWebView.load(URLRequest(url:googleURL!))
+      videoViewer.load(URLRequest(url:googleURL!))
         // Do any additional setup after loading the view.
     }
     

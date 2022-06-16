@@ -77,7 +77,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="gPO-RZ-gLL"/>
                     <connections>
-                        <outlet property="MyWebView" destination="2QR-HS-5mE" id="lX4-bZ-cpZ"/>
+                        <outlet property="myWebView" destination="2QR-HS-5mE" id="Xrv-Bj-c9Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7h-9a-Ug8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -330,7 +330,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="eTS-wq-g2O" kind="show" id="oGF-rs-9Pv"/>
+                                    <segue destination="eTS-wq-g2O" kind="show" id="f06-1B-jhs"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -16,6 +16,7 @@
 		CB65E02C2858FB9400E52091 /* FinaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65E02B2858FB9400E52091 /* FinaleTests.swift */; };
 		CB65E0362858FB9400E52091 /* FinaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65E0352858FB9400E52091 /* FinaleUITests.swift */; };
 		CB65E0382858FB9400E52091 /* FinaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65E0372858FB9400E52091 /* FinaleUITestsLaunchTests.swift */; };
+		CB7CC9F5285B800200779C03 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CC9F4285B800200779C03 /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CB65E0312858FB9400E52091 /* FinaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB65E0352858FB9400E52091 /* FinaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaleUITests.swift; sourceTree = "<group>"; };
 		CB65E0372858FB9400E52091 /* FinaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB7CC9F4285B800200779C03 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CB65E01D2858FB9400E52091 /* Assets.xcassets */,
 				CB65E01F2858FB9400E52091 /* LaunchScreen.storyboard */,
 				CB65E0222858FB9400E52091 /* Info.plist */,
+				CB7CC9F4285B800200779C03 /* VideoViewController.swift */,
 			);
 			path = Finale;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				CB65E0192858FB9100E52091 /* ViewController.swift in Sources */,
 				CB65E0152858FB9100E52091 /* AppDelegate.swift in Sources */,
+				CB7CC9F5285B800200779C03 /* VideoViewController.swift in Sources */,
 				CB65E0172858FB9100E52091 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
